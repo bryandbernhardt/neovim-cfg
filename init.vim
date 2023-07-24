@@ -21,6 +21,7 @@ call plug#begin()
   " vuejs
   Plug 'yaegassy/coc-volar', { 'do': 'yarn install --frozen-lockfile' }
   Plug 'yaegassy/coc-volar-tools', { 'do': 'yarn install --frozen-lockfile' }
+  Plug 'weirongxu/coc-explorer'
 
   if (has("nvim"))
     Plug 'nvim-lua/plenary.nvim'
