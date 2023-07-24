@@ -1,0 +1,5 @@
+require('coc')
+require('theme')
+require('ale')
+require('remaps')
+require('nvimtree')
